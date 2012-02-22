@@ -3,7 +3,10 @@
 
 This is a clone of @mauricemach [CoffeeKup](https://github.com/mauricemach/coffeekup).
 
-I am renaming and trying to keep this project alive.
+I have renamed the npm module to coffeecup and will try to keep this project alive.
+
+[CoffeeCup](https://github.com/gradus/coffeecup).
+
 
 CoffeeCup is a templating engine for [node.js](http://nodejs.org) and browsers that lets you to write your HTML templates in 100% pure [CoffeeScript](http://coffeescript.org).
 
@@ -67,7 +70,6 @@ Here's what a template written for CoffeeCup looks like:
           comment 'HTML comments.'
           p 'Bye!'
 
-Interactive demo at [coffeekup.org](http://coffeekup.org).
 
 ## _why?
 
@@ -147,7 +149,7 @@ Defining variables:
         attrs.name = attrs.id
         input attrs
 
-    ck.render(template, title: 'Log In', hardcode: helpers)
+    cc.render(template, title: 'Log In', hardcode: helpers)
 
 Precompiling to functions:
 
